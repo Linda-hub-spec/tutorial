@@ -1,0 +1,9 @@
+GITBASH
+
+cd: change directory
+pwd:present working document
+ls: list all the contend of current location
+git init: creates a git repository
+cd .. : to change directory location one step back
+git add . : to save changes made on a location to the git repository(first stage of saving)
+git commit -m "description of changes made": to finally save changes and stating the changes made for easy referencing 					     in the repository
