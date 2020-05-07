@@ -1,0 +1,41 @@
+git config --global user.name "linda": to change the name of the settings
+
+git config --global user.email "linda@me.com"
+
+git config --list: lists al the settings available
+
+git config user.name: to view just the name in the settings
+
+git help: gives the help menu for git
+
+git help commit: opens the commit help page in a browser(note: commit is found in the displayed from the git help command)
+
+git log: displays the list of all commits done(commit history)
+
+git status: gives details of files not commited
+
+work flow
+working copy(files working on) > staging area(git add . saves to staging area) > repository(git commit to save to repository)
+
+git diff: to compare changes between working document and repository
+
+git diff --staged : compares staging area with repository
+
+git rm filename: to delete file in both repository and working 		location
+git commit -m "delete message": to save the changes of the delete 				action
+
+git mv originalFilename intendingfilename : to rename a file
+
+git commit -am "editing/modifying message": this is used to bypass the staging area and commits all modified files in the repository
+
+ git checkout -- filename: this take that file from the repository and make it a working copy
+
+git reset HEAD filename : this unstages the stated file and brings it back to the working area. this is used bfr a file is being commited to undo the stage action
+
+git checkout firstFewCommitNumberFromGitLog -- filename: to get the previous commited copy of that file to the working copy 
+
+git remote add preferedhubname githubUrlname:this is to customise the githuburl to a more easy to remember name and also connects the gitbash to the github
+
+git remote: returns the name of the github that the gitbash is linked to.
+
+git push -u preferedhubnameused master: adding files to the server(github)
